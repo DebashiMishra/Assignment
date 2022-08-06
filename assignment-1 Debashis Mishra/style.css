@@ -1,0 +1,366 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+}
+
+.main-container{
+    top: 0;
+    width: 1000px;
+    height: 773px;
+    box-shadow: 1px 2px 5px #c3bfbf;
+    margin-left: 80px;
+    margin-top: 20px;
+   
+    position: relative;
+}
+.first-line{
+/*position: fixed;*/
+    top: 1px;
+    height: 0;
+    height: 50px;
+    width:100%;
+    background: red;
+    box-shadow: 5px;
+    position: absolute;
+}
+.btn1{
+    position: absolute;
+    left:80%;
+    background-color:transparent ;
+    border:0;
+    background: none;
+    color: white;
+    margin-top: 13px;
+}
+.btn2{
+position: absolute;
+left: 86%;
+margin-top: 10px;
+background-color: transparent;
+color: white;
+border: 1px solid white;
+padding:5px;
+}
+.edureka{
+     position: absolute;
+     background-color: white;
+     border-radius: 50%;
+     border-color: white;
+     display: flex;
+     height: 35px;
+     width: 35px;
+     left: 5%;
+     font-size: 6mm;
+     top: 8px;
+     letter-spacing: 1px;
+     text-align: center;
+     justify-content: center;
+     transform:translateY(-3%);
+     padding-left: 1px;
+     padding-top: 3px;
+     padding-bottom: 1px;
+     padding-right: 1px;
+}
+.edureka a{  
+    color: rgb(241, 26, 26); 
+}
+.container-2nd{
+    position:absolute;
+    width:300px;
+    height:600px;
+    box-shadow: 1px 2px 5px #c3bfbf;  
+    margin-left: 70px;
+    margin-top: 140px;
+}
+
+/* breakfast place in odisha */
+
+h2{
+   /* z-index: -1;*/
+    position: absolute;
+    top: 70px;
+    margin-left: 70px;
+    color: red;
+    text-shadow: 10px black;
+}
+#heading{
+    position: absolute;
+    top: 10px;
+    font-size:18px;
+    left: 50px;
+   font-weight: bold;
+   font-family: poppins;
+   color: #8c96ab;
+}
+#subheading{
+    position: absolute;
+    top:40px;
+    left: 50px;
+    color: #8c96ab;
+}
+.search{
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    box-shadow: 1px 2px 5px red;
+    height: 30px;
+    width: 200px;
+}
+.search input{
+    border: none;
+    padding-left: 30px;
+    padding-top: 8px;
+}
+
+/*.cuisine*/
+
+
+#header2{
+    top: 130px;
+    position: absolute;
+    left: 50px;
+    font-weight: semibold;
+    color: #192F60;
+}
+.cuisine input{
+    left: 50px;
+    position: absolute;
+    top: 160px;
+}
+.subheading1{
+    top: 160px;
+    left: 75px;
+    position: absolute;
+    color: #8c96ab;
+}
+.a input{
+    left: 50px;
+    position: absolute;
+    top: 190px;
+    color: #8c96ab;
+}
+.a .subheading2{
+ position: absolute;
+    left: 75px;
+    top: 190px;
+    color: #8c96ab; 
+}
+
+.b input{
+    left: 50px;
+    position: absolute;
+    top: 220px;
+    color: #8c96ab;
+}
+.b .subheading3{
+    position: absolute;
+    top: 220px;
+    left: 75px ;
+    color: #8c96ab;
+}
+
+.c input{
+    left: 50px;
+    position: absolute;
+    top: 250px;
+    color: #8c96ab;
+}
+.c .subheading4{
+    position: absolute;
+    top: 250px;
+    left: 75px ;
+    color: #8c96ab;
+}
+.d input{
+    left: 50px;
+    position: absolute;
+    top: 280px;
+    color: #8c96ab;
+}
+.d .subheading5{
+    position: absolute;
+    top: 280px;
+    left: 75px ;
+    color: #8c96ab;
+}
+/* END */
+
+#header3{
+    top: 330px;
+    position: absolute;
+    left: 50px;
+    font-weight: semibold;
+    color: #192F60;
+}
+.part-2 input{
+    left: 50px;
+    position: absolute;
+    top: 360px;
+}
+.s1{
+    left: 75px;
+    position: absolute;
+    top: 360px;
+    color: #8c96ab;
+}
+.f input{
+    left: 50px;
+    top: 390px;
+    position: absolute;
+}
+.f .s2{
+    left: 75px;
+    top: 390px;
+    position: absolute;
+    color: #8c96ab;
+}
+.g input{
+    left: 50px;
+    top: 420px;
+    position: absolute;
+}
+.g .s3{
+    left: 75px;
+    top: 420px;
+    position: absolute;  
+    color: #8c96ab;
+}
+.h input{
+    left: 25px;
+    top: 320px;
+    position: absolute;
+}
+.h .s4{
+    left: 50px;
+    top: 320px;
+    position: absolute;
+    color: #8c96ab;
+}
+.i input{
+    left: 50px;
+    top: 480px;
+    position: absolute;
+}
+.i .s5{
+    left: 75px;
+    top: 480px;
+    position: absolute;
+    color: #8c96ab;
+}
+/*  new part image */
+
+.container-3{
+   position: relative;
+    height: 210px;
+    width: 450px;
+    box-shadow: 1px 2px 5px #c3bfbf;  
+    margin-left: 350PX; 
+}
+.breakfast img{
+    height: 90px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.heading{
+    top: 20px;
+    left: 130px;
+    position: absolute;
+    font-weight:700;
+    font-family: system-ui;
+    font-size: 5mm;
+    color: rgb(52, 72, 109);
+}
+.heading-1{
+top: 50px;
+position: absolute;
+left: 130px;
+font-weight: 500;
+font-family:system-ui ;
+font-size: 4.5mm;
+color: rgb(52, 72, 109);
+}
+.subheading{
+    top: 80px;
+    left: 130px;
+    position: absolute;
+    font-size: 3mm;
+    font-weight: 200;
+    color: rgb(115, 129, 155);
+}
+.h{
+    position: absolute;
+    top: 130px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: 25px;
+    /*font-size: 5mm;
+    font-family: aller;
+    color: red;*/
+    box-shadow: 1px 2px 5px #c3bfbf; 
+}
+#dev{
+    top: 145px;
+    position: absolute;
+    left: 20px;
+    font-weight: 400;
+    font-family:system-ui ;
+    font-size: 4mm;
+    color: rgb(52, 72, 109);
+}
+#c1{
+    top: 145px;  
+    position: absolute;
+    left: 130px;
+    font-weight: 400;
+font-family:system-ui ;
+font-size: 4mm;
+color: rgb(52, 72, 109);
+
+}
+#c2{
+    top: 175px;
+    position: absolute;
+    left: 20px;
+    font-weight: 400;
+    font-family:system-ui ;
+    font-size: 3mm;
+    color: rgb(52, 72, 109);
+}
+#dev2{
+    top: 175px;  
+    position: absolute;
+    left: 130px;
+    font-weight: 400;
+font-family:system-ui ;
+font-size: 4mm;
+color: rgb(52, 72, 109);
+}
+
+/* new 2 */
+
+.container-4{
+    position: relative;
+     height: 210px;
+     width: 450px;
+     box-shadow: 1px 2px 5px #c3bfbf;  
+     margin-left: 350PX; 
+     top: 75px;
+ }
+ .drink img{
+    
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 10px;
+        position: absolute;
+ }
+ 
+
+  
+
